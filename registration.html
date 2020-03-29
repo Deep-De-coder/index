@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            fname{color:white;}
+            lname{color:white;}
+            label{color:white;}
+            radio{color:white;}
+            h1{color:white;}
+            h2{color:white;}
+             
+        </style>
+        <body style="background-image:url('P.jpeg'); background-repeat: no-repeat;background-size : cover;
+                      height:100% ; padding:0 ;margin:0;">
+            </body> 
+            <form action="/deep_page.php" method="post">
+
+        <centre><h1>Registration form</h1></centre> 
+        <form>
+        <label for="fname">First name :</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name :</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        </form>
+<h2>Select Gender</h2>
+<form>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  <input type="Submit" value="submit">
+</form> 
+
+    </body>
+</head>
+
+</html>
